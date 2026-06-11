@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  # ----------------------------------------
+  # PostgreSQL Database (Job Queue State & Analytics)
+  # ----------------------------------------
+  postgres:
+    image: postgres:15-alpine
+    container_name: ats_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ats_user
+      POSTGRES_PASSWORD: ats_password_secure
+      POSTGRES_DB: ats_jobs_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - ats_network
+
+  # ----------------------------------------
+  # Redis (BullMQ Queue Broker)
+  # ----------------------------------------
+  redis:
+    image: redis:7-alpine
+    container_name: ats_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - ats_network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  ats_network:
+    driver: bridge
