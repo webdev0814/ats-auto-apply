@@ -38,6 +38,9 @@ npm test
 
 ## 4. Recent Commit Activity (Where We Left Off)
 The most recent commits show the latest development trajectory:
+- `[97da8f5]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
+- `[57d7162]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
+- `[426397c]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 - `[5231376]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 - `[b3455f7]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 - `[a00e085]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
@@ -45,9 +48,6 @@ The most recent commits show the latest development trajectory:
 - `[4036d3c]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[5903695]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 - `[8799bed]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
-- `[31218ed]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
-- `[7d504bc]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
-- `[8055601]` (2026-09-08) docs: update agent briefing (AGENTS.md, GEMINI.md, CLAUDE.md)
 
 ---
 
