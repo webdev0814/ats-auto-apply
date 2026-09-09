@@ -4,7 +4,7 @@
 - **Repository**: `webdev0814/ats-auto-apply`
 - **Visibility**: `Public`
 - **Default Branch**: `main`
-- **Last Updated / Pushed**: 2026-09-08
+- **Last Updated / Pushed**: 2026-09-09
 - **Description**: An open-source, agentic web automation system designed to autonomously find, analyze, and apply to job postings on Applicant Tracking Systems.
 - **Context from README**: An open-source, agentic web automation system designed to autonomously find, analyze, and apply to job postings on Applicant Tracking Systems (ATS) like Greenhouse and Lever. It leverages Playwright for browser automation, large language models (LLMs) to map custom forms and generate dynamic cover l...
 - **Topics/Tags**: ai-agent, ats, automation, job-search, playwright
@@ -38,6 +38,9 @@ npm test
 
 ## 4. Recent Commit Activity (Where We Left Off)
 The most recent commits show the latest development trajectory:
+- `[6597cf3]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
+- `[dbdfc8e]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
+- `[d99191c]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 - `[88f5b38]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 - `[0bd85b3]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
 - `[97a31eb]` (2026-09-09) docs: update agent briefing with multi-computer handoff protocol
@@ -45,9 +48,6 @@ The most recent commits show the latest development trajectory:
 - `[861d678]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 - `[d99674c]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 - `[7487fd7]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
-- `[eab3546]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
-- `[fa7fbc0]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
-- `[9fca073]` (2026-09-08) docs: update agent briefing with multi-computer handoff protocol
 
 ---
 
